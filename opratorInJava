@@ -1,0 +1,38 @@
+int myNumber1 = 1+2;
+		int PreviousNumber = myNumber1;
+		int result = myNumber1 + myNumber1; //3+3 = 6
+		
+		System.out.println("MY NUMBER = " + myNumber1);
+		System.out.println("my previous number = " + PreviousNumber);
+		System.out.println("result = " + result);
+		
+		result = result -1; //6-1 =5
+		System.out.println("result1 = " + result);
+		
+		result = result *4; // 5*4 =20
+		System.out.println("result2 = " + result );
+		
+		result = result / 5; // 20/5 = 4
+		System.out.println("result3 = " + result );
+		
+		result = result % 3; // 4%3 =1
+		System.out.println("result4 = " + result );
+		
+		result ++; // its result +1
+		System.out.println("Abbreviating Result1 = " +result);
+		
+		result-- ;
+		System.out.println("Abbreviating Result2 = " +result );
+		
+		result *= 4;
+		System.out.println("Abbreviating Result3 = " +result);
+		
+		result /= 2;
+		System.out.println("Abbreviating Result4 = "+ result);
+		
+		result %=2;
+		System.out.println("Abbreviating Result5 = " + result );
+		
+		result = result +100;
+		System.out.println("Abbreviating Result Final = " + result);
+		
